@@ -1,4 +1,3 @@
-import subprocess
 import time
 
 from django.core.management import BaseCommand

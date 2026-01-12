@@ -19,6 +19,5 @@ RUN adduser \
 RUN mkdir -p ./media
 RUN chown -R django-user:django-user ./media
 RUN chmod -R 755 ./media
-RUN chown -R django-user:django-user .
 
 USER django-user
